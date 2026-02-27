@@ -1,0 +1,85 @@
+/* body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+} */
+
+* {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: burlywood;
+  
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.stats {
+  background-color: khaki;
+  padding: 20px;
+  margin: 20px 0;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stats p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.student-card-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: gold;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student-card {
+  border: hidden;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px 10px;
+  background-color: chocolate;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student-card h3 {
+  color: #212529;
+  font-weight: 900;
+  padding-bottom: 8px;
+}
+
+.pass-card {
+  background-color: chocolate;
+  border-color: #fafafa;
+}
+
+.fail-card {
+  background-color: brown;
+  border-color: #fafafa;
+  text-decoration: dotted;
+  color: lightpink;
+}
+
+.pass {
+  text-align: right;
+  color: green;
+  font-weight: 800;
+}
+
+.fail {
+  text-align: right;
+  color: red;
+  font-weight: 800;
+}
